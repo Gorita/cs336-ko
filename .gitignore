@@ -1,0 +1,22 @@
+# Stanford 공식 repo들과 본인 작업 공간
+workspace/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 시스템
+.DS_Store
+Thumbs.db
+
+# 에디터
+.vscode/
+.idea/
+*.swp
+
+# 로컬 메모
+*.local.md
