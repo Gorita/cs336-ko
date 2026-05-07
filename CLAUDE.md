@@ -69,6 +69,27 @@ cs336-ko/                              # public repo
 - 학습 시작 시: `workspace/notes/lec{NN}.md` 의 미해결 `[ ]` 항목 자동 표시
 - 학습 종료 시: 오늘 남은 미해결 요약
 
+## 학습 검증 (Deep Quiz)
+
+강의 한 단위 학습이 끝나면 `cs336-deep-quiz` 스킬로 진짜 이해했는지 검증.
+
+- 서브에이전트(Socratic Examiner) 가 표면적 답에 의심 (max 3 probe)
+- 검증 대상: 객관 2 (`guide.md` 학습 목표) + 주관 1 (`notes` 의 `[ ]`)
+- 결과 처리:
+  - **gap / surface** → `notes/lec{NN}.md` 에 `[ ]` 추가 제안 (사용자 확인 후)
+  - **이전 `[ ]` 가 mastered** → `[x]` close 제안
+  - **mastered** (신규) → 노트에 안 적음 (채팅에만)
+- 빈번한 호출 권장 X (학습 단위 끝마다 1회)
+
+### 닫힘 루프
+
+```
+학습 → /cs336-note (노트 누적) 
+     → /cs336-deep-quiz (검증, 서브에이전트 의심)
+     → gap 발견 시 노트에 [ ] 추가 (사용자 확인)
+     → 다음 학습 시작 시 [ ] 자동 표시
+```
+
 ## Assignment 작업
 
 - 작업 위치: `workspace/assignment{N}-*/` (Stanford clone, gitignored)

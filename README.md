@@ -21,7 +21,7 @@ LM의 모든 핵심 요소를 직접 코드로 구현하면서 배웁니다.
 - **한국어 번역본** (`lectures/`) — Stanford 강의 코드의 한국어 번역 (실행 가능, 학습 완료 후 작성)
 - **영-한 용어집** (`glossary-ko.md`)
 - **학습 로드맵** ([`ROADMAP.md`](./ROADMAP.md))
-- **Claude Code 페어러닝** — `.claude/skills/cs336-note` 로 학습 노트 자동 정돈
+- **Claude Code 페어러닝** — `.claude/skills/cs336-note` (노트 자동 정돈) + `.claude/skills/cs336-deep-quiz` (서브에이전트 기반 학습 검증)
 
 ## 🚀 시작하기
 
@@ -56,6 +56,7 @@ Claude Code 와 함께 진행하는 페어러닝 방식을 권장합니다:
 2. 사용자는 채팅으로 반응 / 메모 / 질문
 3. **`/cs336-note`** 스킬로 학습 중 노트 자동 정돈 → `workspace/notes/lec{NN}.md` 에 누적
 4. 섹션 끝마다 이해 확인 (체크포인트)
+5. 강의 단위 학습 끝나면 **`/cs336-deep-quiz`** 로 검증 (서브에이전트 의심)
 
 이 방식의 자세한 규칙은 [`CLAUDE.md`](./CLAUDE.md) 참조.
 
