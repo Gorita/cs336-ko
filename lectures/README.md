@@ -5,7 +5,7 @@
 ## 강의 목록
 
 ### Unit 1: Foundations
-- [x] [Lecture 1: Overview, Tokenization](./lec01-tokenization.md)
+- [x] [Lecture 1: Overview, Tokenization](./lec01-tokenization/guide.md)
 - [ ] Lecture 2: PyTorch, Resource Accounting
 - [ ] Lecture 3: Architectures, Hyperparameters
 - [ ] Lecture 4: Mixture of Experts
@@ -34,6 +34,20 @@
 ### Unit 6: Guest Lectures
 - [ ] Lecture 18: Junyang Lin (Qwen)
 - [ ] Lecture 19: Mike Lewis
+
+## 디렉토리 구조
+
+각 강의는 폴더 단위로 정리됩니다.
+
+```
+lec01-tokenization/
+├── guide.md                # 한국어 학습 가이드
+└── lecture_01_ko.py        # 한국어 번역본 (학습 완료 후 작성)
+```
+
+## 라이선스
+
+번역본은 Stanford 공식 자료의 MIT 라이선스를 따릅니다 ([LICENSE](./LICENSE) 참조).
 
 ## 공식 자료
 
