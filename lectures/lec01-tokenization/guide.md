@@ -161,6 +161,7 @@ ratio가 높을수록 한 token에 더 많은 정보가 압축됨 → 시퀀스 
 - [tiktoken](https://github.com/openai/tiktoken) — OpenAI의 BPE 구현
 - [Hugging Face Tokenizers](https://huggingface.co/docs/tokenizers) — 실전 라이브러리
 
-## 💭 학습 메모 공간
+## 💭 학습 메모
 
-(여기에 본인이 학습하면서 기록하고 싶은 메모를 추가하세요. 또는 `workspace/notes/lec01.md` 에 별도로 작성)
+본인 raw 학습 노트는 `workspace/notes/lec01.md` 에 작성합니다 (gitignored).
+페어러닝 시 `/cs336-note` 스킬을 사용하면 자동으로 정돈된 형태로 저장됩니다.
