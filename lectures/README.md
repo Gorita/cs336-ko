@@ -5,7 +5,7 @@
 ## 강의 목록
 
 ### Unit 1: Foundations
-- [ ] Lecture 1: Overview, Tokenization
+- [x] [Lecture 1: Overview, Tokenization](./lec01-tokenization.md)
 - [ ] Lecture 2: PyTorch, Resource Accounting
 - [ ] Lecture 3: Architectures, Hyperparameters
 - [ ] Lecture 4: Mixture of Experts
